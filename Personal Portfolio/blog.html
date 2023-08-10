@@ -1,0 +1,77 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <link href="CSS/blog.css" rel="stylesheet" type="text/css">
+        <!--http://www.jsmadeeasy.com/javascripts/Games/Tic-Tac-Toe/index.htm-->
+       
+    </head>
+    <body >
+        <!--header starts-->
+        <header class="navbar">
+            <ul>
+                <li><a href="home.html" target="_blank">About</a></li>
+                <li><a href="home.html" target="_blank">Portfolio</a></li>
+                <li><a href="blog.html" target="_self">Blog</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="home.html">Home</a></li>      
+            </ul>
+        </header>
+        <!--header ends-->
+        <!-- Original:  Maximilian Stocker (maxstocker@reallyusefulcomputing.com) -->
+        <!--about section begins-->
+        <div class="About" id="about">
+            <center>
+                <h2>Tic-Toe Game </h2>
+                <form name=game>                
+                <table border=2 class="tabletwo">
+                <tr>
+                <td><a href="javascript:yourChoice('A')"><img src="Images/blank.jpg" border=0 height=150 width=200  name=A alt="Top-Left"></a></td>
+                <td><a href="javascript:yourChoice('B')"><img src="Images/blank.jpg" border=0 height=150 width=200 name=B alt="Top-Center"></a></td>
+                <td><a href="javascript:yourChoice('C')"><img src="Images/blank.jpg" border=0 height=150 width=200 name=C alt="Top-Right"></a></td>
+                </tr>
+                <tr>
+                <td><a href="javascript:yourChoice('D')"><img src="Images/blank.jpg" border=0 height=150 width=200 name=D alt="Middle-Left"></a></td>
+                <td><a href="javascript:yourChoice('E')"><img src="Images/blank.jpg" border=0 height=150 width=200 name=E alt="Middle-Center"></a></td>
+                <td><a href="javascript:yourChoice('F')"><img src="Images/blank.jpg" border=0 height=150 width=200 name=F alt="Middle-Right"></a></td>
+                </tr>
+                <tr>
+                <td><a href="javascript:yourChoice('G')"><img src="Images/blank.jpg" border=0 height=150 width=200 name=G alt="Bottom-Left"></a></td>
+                <td><a href="javascript:yourChoice('H')"><img src="Images/blank.jpg" border=0 height=150 width=200 name=H alt="Bottom-Center"></a></td>
+                <td><a href="javascript:yourChoice('I')"><img src="Images/blank.jpg" border=0 height=150 width=200  name=I alt="Bottom-Right"></a></td>
+                </tr>
+                </table>
+                </td>
+                <td>
+                
+                <div class="Buttons1">
+                    <table >
+                        <tr><td><input type=text size=1 name=you><b>  You</b></td></tr>
+                        <tr><td><input type=text size=1 name=computer><b>  Computer</b></td></tr>
+                        <tr><td><input type=text size=1 name=ties><b>  Ties</b></td></tr>
+                        <tr><td><input type=button value="Play Again" onClick="playAgain();">
+                            &nbsp;&nbsp;</td></tr>
+                        <tr><td><input type=button value="Game Help" onClick="help();">
+                            &nbsp;&nbsp;</td></tr>
+                        <tr><td><input type=button value="Quit Game" onClick="quitGame();"></td></tr>    
+                        </table>
+                        
+                        
+                        
+                </div>
+                
+                
+                </form>
+                </center>
+            
+         
+        
+          
+         <script src="Javascript/blog.js">
+        </script>
+        
+    </body>
+</html>

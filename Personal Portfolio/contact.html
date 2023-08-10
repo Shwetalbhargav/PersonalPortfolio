@@ -1,0 +1,59 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link href="CSs/contact.css" rel="stylesheet" type="text/css">
+       
+    </head>
+    <body >
+        <!--header starts-->
+        <header class="navbar">
+            <ul>
+                <li><a href="home.html" target="_blank">About</a></li>
+                <li><a href="home.html" target="_blank">Portfolio</a></li>
+                <li><a href="blog.html" target="_blank">Blog</a></li>
+                <li><a href="contact.html" target="_self">Contact</a></li>
+                <li><a href="home.html">Home</a></li>      
+            </ul>
+        </header>
+        <!--header ends-->
+
+        <!--about section begins-->
+        <div class="About" id="about">
+            <div class="lftcontainer"> 
+                <img src="Images/shwetal.jpg">                            
+            </div>
+            <div class="rtcontainer">
+                <div class="text1">
+                    <fieldset >
+                        <legend>Contact</legend>
+                        <form method="POST" action="contact.php" class="FORM" name="form" onsubmit="return validate()"
+                         >
+                            Name <input type="text" name="user" id="Name">
+                            <br>
+                            Mobile Number <input type="number" name="Mobile" id="mobile">
+                            <br>
+                            Email <input type="email" name="Email" id="email">
+                            <br/>
+                            <button type="submit" name="submit" id="click" onclick="Submitfunc()">Submit</button>
+                            <br/>
+                           <img src="Images/mail.png">
+                           <a href="mailto:hridaan.purav@gmail.com">Send message</a> 
+                        </form>
+                        
+                    </fieldset>  
+                    <script src="Javascript/contact.js">
+                    </script>
+                   
+                 </div>         
+            </div>
+        </div>
+          <!--about session ends-->
+
+         
+        
+    </body>
+</html>

@@ -1,0 +1,74 @@
+.navbar{
+    background-image: url("himalayas.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: auto;
+    height: 400px;
+    margin-bottom: 0%;
+}
+.navbar ul{    
+    list-style: none;
+}
+.navbar ul li{
+    float: right;
+    display: inline;    
+    padding: 15px;
+    font-size: 35px;
+}
+.navbar ul li a{
+  display: inline;
+  text-decoration: none;
+  color: black;
+}
+.navbar ul li a:hover{
+    color:coral;
+}
+.About{
+    height: 500px;
+    
+}
+.About{
+    margin-top: 0%;
+    background-color: rgb(238, 207, 238);
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+}
+.tabletwo{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 500px;
+    border-style: solid;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.tabletwo img{
+    align-items; 
+}
+.Buttons1{
+   
+    margin-top: 30px;
+    padding: 10px;
+    
+}
+.Buttons1 table{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    font-size: x-large;
+    
+}
+.Buttons1 input{
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: x-large;
+    background-color: rgb(18, 3, 83);
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+    color: white;
+}
